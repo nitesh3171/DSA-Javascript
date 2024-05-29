@@ -17,11 +17,11 @@ function transposeMatrix(matrix) {
 }
 
 
-let matrix = [
+let matrix1 = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ];
 
-let transposedMatrix = transposeMatrix(matrix);
+let transposedMatrix = transposeMatrix(matrix1);
 console.log(transposedMatrix);
